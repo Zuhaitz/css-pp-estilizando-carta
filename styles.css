@@ -23,8 +23,13 @@ q {
   quotes: "'" "'";
 }
 
-address {
-  line-height: 1.6;
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .tooltip {
@@ -42,29 +47,16 @@ address {
   color: white;
   background-color: blueviolet;
   text-decoration: none;
-  top: -30px;
-  left: -100px;
   bottom: 100%;
-  right: 0;
   border-radius: 10px;
 }
 
 .tooltip-small span {
   width: 150px;
-  left: -60px;
 }
 
 .tooltip:hover span {
   visibility: visible;
-}
-
-a {
-  color: blueviolet;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .align-right {
@@ -73,6 +65,10 @@ a:hover {
 
 .top-gap {
   margin-top: 80px;
+}
+
+.vertical-write {
+  writing-mode: vertical-lr;
 }
 
 ::selection {
