@@ -1,0 +1,28 @@
+/* More complete version: https://github.com/Lazzzer00/Best-CSS-Reset-2024/blob/main/css_reset.css */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+} */
+
+body {
+  margin: 32px auto;
+  max-width: 800px;
+}
+
+br {
+  display: block;
+  margin: 8px 0;
+  content: " ";
+  line-height: 22px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.top-gap {
+  margin-top: 80px;
+}
